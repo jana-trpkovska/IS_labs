@@ -1,0 +1,48 @@
+﻿@model List<TheatreShows.Web.Models.Ticket>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Tickets</h1>
+
+<div class="container">
+
+    <div class="m-4">
+        <a href="/Tickets/Create" class="btn btn-success">Create New</a>
+    </div>
+
+    @for(int i = 0; i < Model.Count; i++)
+    {
+        var item = Model[i];
+
+        if(i % 4 == 0)
+        {
+            @:<div class="row">
+        }
+
+            <div class="col-3">
+                <div class="card" style="width: 95%; height: 100%%; margin: 3%">
+                    <div class="card-body">
+                        <h5 class="card-title">@item.TheatreShow?.Title</h5>
+                        <h6 class="card-text">Price: @item.Price</h6>
+                        <h6 class="card-text">@item.TheatreShow?.Date</h6>
+                        <h6 class="card-text">@item.TheatreShow?.Place</h6>
+                        
+                    </div>
+                    <div class="card-footer">
+                        <a asp-controller="Tickets" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-dark">Edit</a>
+                        <a asp-controller="Tickets" asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">Details</a>
+                        <a asp-controller="Tickets" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                    </div>
+                </div>
+            </div>
+
+            if(i % 4 == 3)
+        {
+            @:</div>
+        }
+    }
+
+</div>
