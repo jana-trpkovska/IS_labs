@@ -1,0 +1,39 @@
+﻿@model EShop.Domain.Domain.BookReservation
+
+@{
+    ViewData["Title"] = "AddReservationToBookingList";
+}
+<h1>Add Reservation to booking list</h1>
+
+<h4>Reservation</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AddReservationToBookingList">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            
+            <input asp-for="Id" type="hidden" />
+            <input asp-for="BookingListId" type="hidden" />
+            <input asp-for="ReservationId" type="hidden" />
+
+            <div class="form-group">
+                <label asp-for="NumberOfNights" class="control-label"></label>
+                <input asp-for="NumberOfNights" class="form-control" />
+                <span asp-validation-for="NumberOfNights" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="AddReservationToBookingList" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,47 @@
+﻿@model EShop.Domain.DTO.BookingListDto
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>My booking list</h1>
+
+<p>
+    <a class="btn btn-outline-secondary" asp-action="BookNow">Book now</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Apartment</th>
+            <th>Check in date</th>
+            <th>Price per night</th>
+            <th>Number of nights</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.BookedReservations) {
+        <tr>
+            <td>
+                @item.Reservation.Apartment.ApartmentName
+            </td>
+            <td>
+                @item.Reservation.Check_in_date
+            </td>
+            <td>
+                @item.Reservation.Apartment.Price_per_night
+            </td>
+            <td>
+                @item.NumberOfNights
+            </td>
+            <td>
+                <a class="btn btn-outline-danger" asp-action="DeleteFromList" asp-route-id="@item.Id">Delete booking from list</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<p>
+    Total price: @Model.TotalPrice $
+</p>
