@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DeNy3/O0V57ElpMqpT8wkEyied7yfRUzqemoy2pbW2I1X2wa6Lbu6emH04MwQsHw1R4a5jaReQ6l1+wRj3UU1Q==",
+  "dgSpecHash": "Tqk6aV+4JC1jEo53p6iq+I3wZuafXqh/g7wYJke5Q75Swhdl6cvYGBeQaRMb/sK/DyQdpnu3YnvbxcIdV+IdDg==",
   "success": true,
-  "projectFilePath": "D:\\OneDrive - Personal\\OneDrive\\FINKI\\6 semestar\\Integrirani sistemi\\Laboratoriski\\Lab1\\TheatreShows\\TheatreShows.Web\\TheatreShows.Web.csproj",
+  "projectFilePath": "C:\\Users\\Jana Trpkovska\\Desktop\\IS_labs\\Lab1\\TheatreShows\\TheatreShows.Web\\TheatreShows.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jana Trpkovska\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Jana Trpkovska\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

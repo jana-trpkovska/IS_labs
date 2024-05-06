@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TheatreShows.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e62670691db7a41c6abab63b779fedf139d0ccf")]
 [assembly: System.Reflection.AssemblyProductAttribute("TheatreShows.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TheatreShows.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

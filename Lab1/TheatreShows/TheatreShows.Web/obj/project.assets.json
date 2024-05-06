@@ -8290,11 +8290,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\OneDrive - Personal\\OneDrive\\FINKI\\6 semestar\\Integrirani sistemi\\Laboratoriski\\Lab1\\TheatreShows\\TheatreShows.Web\\TheatreShows.Web.csproj",
+      "projectUniqueName": "C:\\Users\\Jana Trpkovska\\Desktop\\IS_labs\\Lab1\\TheatreShows\\TheatreShows.Web\\TheatreShows.Web.csproj",
       "projectName": "TheatreShows.Web",
-      "projectPath": "D:\\OneDrive - Personal\\OneDrive\\FINKI\\6 semestar\\Integrirani sistemi\\Laboratoriski\\Lab1\\TheatreShows\\TheatreShows.Web\\TheatreShows.Web.csproj",
+      "projectPath": "C:\\Users\\Jana Trpkovska\\Desktop\\IS_labs\\Lab1\\TheatreShows\\TheatreShows.Web\\TheatreShows.Web.csproj",
       "packagesPath": "C:\\Users\\Jana Trpkovska\\.nuget\\packages\\",
-      "outputPath": "D:\\OneDrive - Personal\\OneDrive\\FINKI\\6 semestar\\Integrirani sistemi\\Laboratoriski\\Lab1\\TheatreShows\\TheatreShows.Web\\obj\\",
+      "outputPath": "C:\\Users\\Jana Trpkovska\\Desktop\\IS_labs\\Lab1\\TheatreShows\\TheatreShows.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jana Trpkovska\\AppData\\Roaming\\NuGet\\NuGet.Config",
